@@ -6,8 +6,8 @@
 package config
 
 import (
-	"secondkill/sk-core/service/svc_product"
-	"secondkill/sk-core/service/svc_user"
+	"github.com/ztaoing/sec-kill-core/sk-core/service/svc_product"
+	"github.com/ztaoing/sec-kill-core/sk-core/service/svc_user"
 	"sync"
 )
 

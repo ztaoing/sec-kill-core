@@ -8,9 +8,9 @@ package svc_redis
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/ztaoing/sec-kill-core/sk-core/config"
+	pkgConfig "github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"log"
-	pkgConfig "secondkill/pkg/config"
-	"secondkill/sk-core/config"
 	"time"
 )
 

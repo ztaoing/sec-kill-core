@@ -5,7 +5,7 @@
 
 package main
 
-import "secondkill/sk-core/setup"
+import "github.com/ztaoing/sec-kill-core/sk-core/setup"
 
 func main() {
 	setup.InitZk()

@@ -8,11 +8,11 @@ package svc_redis
 import (
 	"crypto/md5"
 	"fmt"
+	"github.com/ztaoing/sec-kill-core/sk-core/config"
+	"github.com/ztaoing/sec-kill-core/sk-core/service/svc_err"
+	"github.com/ztaoing/sec-kill-core/sk-core/service/svc_user"
+	pkgConfig "github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"log"
-	pkgConfig "secondkill/pkg/config"
-	"secondkill/sk-core/config"
-	"secondkill/sk-core/service/svc_err"
-	"secondkill/sk-core/service/svc_user"
 	"time"
 )
 

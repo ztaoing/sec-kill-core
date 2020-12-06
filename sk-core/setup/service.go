@@ -7,10 +7,10 @@ package setup
 
 import (
 	"fmt"
+	"github.com/ztaoing/sec-kill-core/sk-core/service/svc_redis"
+	register "github.com/ztaoing/sec-kill-pkg/pkg/discover"
 	"os"
 	"os/signal"
-	register "secondkill/pkg/discover"
-	"secondkill/sk-core/service/svc_redis"
 	"syscall"
 )
 

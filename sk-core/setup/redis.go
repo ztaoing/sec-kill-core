@@ -7,8 +7,8 @@ package setup
 
 import (
 	"github.com/go-redis/redis"
+	pkgConfig "github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"log"
-	pkgConfig "secondkill/pkg/config"
 )
 
 /**
